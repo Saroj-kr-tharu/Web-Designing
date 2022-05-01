@@ -1,0 +1,150 @@
+body{
+	background-color:#d5e9ca;
+	margin:0px;
+}
+h4{
+	color:white;
+	margin-bottom:0px;
+	padding-bottom:0px;
+}
+h1{	padding-bottom:0px;
+	margin-bottom:0px;
+	margin-top:5px;
+}
+div.sub.title{
+	color:red;
+	font-size:20px;
+}
+#para{
+	font-size:19px;
+}
+nav{
+	overflow:hidden;	
+	background-color:#466964;
+	padding-left:30px;
+
+}
+nav a:hover{
+	background-color:black;
+	color:white;
+}
+nav a{
+	text-decoration:none;
+	padding:14px 30px 14px 10px;
+	float:left;
+	color:white;	
+}
+
+
+input[type=text]:hover,select:hover,textarea:hover,input[type=number]:hover,input[type=submit]:hover{
+	border:4px solid #ccc;
+}
+input[type=text],select,textarea,input[type=number]{
+	padding:12px;
+	border:1px solid #ccc;
+	margin-top:6px;
+	margin-bottom:16px;
+	resize:vertical;
+	width:50%;
+	padding-left:10px;
+}
+select{
+	width:53%;
+}
+textarea{margin-left:20%;}
+#email{
+	padding:0px 64px 0px 80px;
+}
+.form_element{
+	padding-left:80px;
+}
+.form_element_custom{padding-left:80px;
+					padding-right:18px;}
+textarea{
+	height:50px;
+}
+input[id=fname],input[id=mname]{
+	width:20%;
+
+}
+input[id=lname]{
+	width:50%;
+	margin-left:25px;
+}
+.lname{
+	margin-left:80px;
+}
+
+.feedback_msg{
+	padding-left:40%;
+}
+.feedback{
+	padding-left:30%;
+	font-size:10px;
+}
+input[type=submit]{
+	background-color:green;
+	color:white;
+	padding:12px 20px;
+	cursor:pointer;
+	border:none;
+	margin-left:38%;
+	margin-bottom:5px;
+	width:200px;
+	text-align:center;
+}
+
+.form1{
+	font-family:"Comic Sans Ms",Arial;
+	
+}
+footer{
+	clear:both;
+	padding:3px 10px 4px 10px;
+	background-color:#0e5463;
+	color:white;
+	text-align:center;
+	font-family:"Comic Sans Ms",Arial;
+	margin:0px;
+}
+header{
+	padding:5px 10px 10px 10px;
+	background-color:#8bd0df;
+	color:white;
+	text-align:center;
+	font-family:"Comic Sans Ms",Arial;
+}
+
+div.photo{
+	width:200px;
+	border:3px solid #ccc;
+	padding:5px;
+	margin-left:45%;
+	text-align:center;
+	font-family:"Comic Sans Ms";
+}
+div.photo img{
+	width:100%;
+	height:auto;
+}
+div.discription{
+	padding:10px;
+	font-family:"Comic Sans Ms",Arial;
+	font-size:20px;
+}
+.joker{
+	font-size:18px;
+
+}
+p.intro{
+	text-align:justify;
+	padding:10px;
+}
+p#para{
+	text-align:center;
+	font-size:12px;
+
+}
+@media screen and (max-width:600px){
+
+}

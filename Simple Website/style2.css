@@ -1,0 +1,92 @@
+*{  margin:0;
+    padding:0;
+}
+
+#video_container{
+    width:100%;
+    height:100vh; 
+    overflow:hidden;
+    position:relative; 
+}
+ 
+video{
+    min-width:100%;
+    min-height:100%;
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0px;
+    z-index:-1;
+}
+.contents{
+    position:absolute;
+    top:20%;
+    left:50%;
+    width:800px;
+    transform: translate(-50%, -50%);
+    text-align:center;
+}
+.contents h1{
+    font-family:cursive;
+    font-size:2em;
+    margin:10px 0;
+    color:#fff;
+    text-transform:uppercase;
+}
+.contents p{
+    font-family:sans-serif;
+    color:#fff;
+    font-size:1.7em;
+}
+
+.nav{
+    position:absolute;
+    top:40%;
+    left:50%;
+    width:800px;
+    display:inline;
+    transform: translate(-50%, -50%);
+
+}
+.nav a:hover{
+    border:2px solid #262626;
+    border-radius: 30px;
+    font-size:25px;
+    background: linear-gradient(to left, rgb(14, 88, 110), rgb(8, 129, 49));
+    padding:10px;
+}
+.nav a{
+    text-decoration:none;
+    color:#fff;
+    padding:10px;
+    font-family:Cambria;
+    font-size:1.7em;
+    margin:60px;
+}
+.nav li{
+    list-style:none;
+    color:#fff;
+    display:inline;
+    text-align:center;
+}
+
+footer{
+    top:70%;
+    bottom:0;
+    left:20%;
+    right:20%;
+    position:absolute;
+	padding:3px 10px 4px 10px;
+	color:white;
+	text-align:center;
+	font-family:"Comic Sans Ms",Arial;
+	margin:0px;
+}
+footer #copyright{
+    font-size:2em;
+}
+
+footer #para{
+    font-size:1.4em;
+}
